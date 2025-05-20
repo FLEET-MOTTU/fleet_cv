@@ -1,0 +1,15 @@
+datasets/yolo_motorcycle_detector/images/
+datasets/yolo_motorcycle_detector/labels/
+datasets/secondary_classifier/orientation/
+
+outputs/
+
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+
+venv/
+*/venv/
+.env
