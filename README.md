@@ -1,6 +1,6 @@
 # FLEET: Otimização Inteligente de Pátios de Motocicletas - Prova de Conceito com Visão Computacional
 
-## 📖 Descrição
+## Descrição
 
 Este repositório contém a Prova de Conceito (POC) desenvolvida para o projeto FLEET, que visa criar um sistema inteligente para otimização e controle de pátios de motocicletas. Esta POC foca na aplicação de técnicas de Visão Computacional para:
 1.  Detectar motocicletas em imagens de pátios.
@@ -9,7 +9,7 @@ Este repositório contém a Prova de Conceito (POC) desenvolvida para o projeto 
 
 Este trabalho é parte da disciplina de DISRUPTIVE ARCHITECTURES: IOT, IOB & GENERATIVE IA do curso de Análise e Desenvolvimento de Sistemas da FIAP.
 
-## 📂 Conteúdo do Repositório
+## Conteúdo do Repositório
 
 * **/datasets/yolo_motorcycle_detector/**: Contém o arquivo `data.yaml` que descreve a estrutura do dataset de motocicletas utilizado para treinar o modelo YOLO.
     * **Nota:** As imagens e arquivos de anotação do dataset são armazenados no Google Drive devido ao tamanho e não estão versionados completamente neste repositório apesar 6 imagens e anotações de referência. Para acesso total ao conteúdo do dataset acesse: https://drive.google.com/drive/folders/12NsZ9NkLxkPyr8loIFLZ2ITJUFmwes8f?usp=sharing
@@ -20,7 +20,7 @@ Este trabalho é parte da disciplina de DISRUPTIVE ARCHITECTURES: IOT, IOB & GEN
 * **/test_media/images/**: Contém imagens de exemplo para rodar a inferência e a análise de clusterização.
 * `README.md`: Este arquivo.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Linguagem:** Python
 * **Ambiente Principal:** Google Colaboratory (Colab)
@@ -33,7 +33,7 @@ Este trabalho é parte da disciplina de DISRUPTIVE ARCHITECTURES: IOT, IOB & GEN
 * **Controle de Versão:** Git e GitHub
 * **Armazenamento de Dados (Datasets/Modelos Pesados):** Google Drive
 
-## 📊 Resultados Parciais Obtidos (Detector YOLOv8n - `best.pt`)
+## Resultados Parciais Obtidos (Detector YOLOv8n - `best.pt`)
 
 Após o treinamento do modelo `YOLOv8n` por 30 épocas no dataset, o modelo `best.pt` apresentou os seguintes resultados no **conjunto de teste**:
 
@@ -44,7 +44,7 @@ Após o treinamento do modelo `YOLOv8n` por 30 épocas no dataset, o modelo `bes
 
 Estes resultados indicam uma boa capacidade do modelo em detectar motocicletas com alta precisão e um recall robusto, validando a viabilidade técnica da abordagem de detecção para este POC. A análise das curvas de treinamento (perda, precisão, recall, mAP) e gráficos diagnósticos (Curva PR, Matriz de Confusão) podem ser encontradas no notebook `01_YOLO_Training_Motorcycle_Detector.ipynb`.
 
-## 🚀 Instruções de Uso/Execução
+## Instruções de Uso/Execução
 
 Este projeto foi desenvolvido para ser executado em ambiente Google Colaboratory.
 
