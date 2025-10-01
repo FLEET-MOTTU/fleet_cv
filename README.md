@@ -18,7 +18,6 @@ Este trabalho é parte da disciplina de DISRUPTIVE ARCHITECTURES: IOT, IOB & GEN
     * `02_Main_Inference_Pipeline.ipynb`: Script principal para carregar o modelo treinado (`best.pt`), realizar detecções em imagens, aplicar clusterização e visualizar os resultados (incluindo sugestão de zonas). Link: https://colab.research.google.com/drive/1XjLhmshpXSGpRcrjVRkAIWYjTzhf-2ed?usp=sharing
 * **/trained_models/yolo_detector/**: Pesos do modelo treinado (`best.pt` da run `yolov8n_motorbike_detector_run1`) são armazenados após o treinamento.
 * **/test_media/images/**: Contém imagens de exemplo para rodar a inferência e a análise de clusterização.
-* `README.md`: Este arquivo.
 
 ## Tecnologias Utilizadas
 
@@ -104,3 +103,6 @@ Este projeto foi desenvolvido para ser executado em ambiente Google Colaboratory
 
 * Desenvolver o classificador secundário didático.
 * Expandir a análise de zonas para incluir formas e capacidades.
+
+## Vídeo Apresentação
+Link: https://www.youtube.com/watch?v=eyozXjK4-3Y
