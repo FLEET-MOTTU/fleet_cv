@@ -102,7 +102,5 @@ Este projeto foi desenvolvido para ser executado em ambiente Google Colaboratory
 
 ## Próximos Passos
 
-* Aprimorar o modelo YOLO com mais dados, especialmente para cenários de alta oclusão, motos pequenas e vistas de cima.
 * Desenvolver o classificador secundário didático.
-* Integrar este componente de CV com a solução FLEET baseada em BLE.
 * Expandir a análise de zonas para incluir formas e capacidades.
